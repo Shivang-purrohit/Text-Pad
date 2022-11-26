@@ -62,7 +62,7 @@ export default function TextForm(props) {
 <button disabled={text.length===0} className="btn btn-primary  mx-1 my-1" onClick={handleUpClick}>Convert to UpperCase</button>
 <button  disabled={text.length===0}  className="btn btn-primary mx-1 my-1" onClick={handleLowClick}>Convert to LowerCase</button>
 <button  disabled={text.length===0}  className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>Clear text</button>
-<button  disabled={text.length===0}  className="btn btn-primary mx-1 my-1" onClick={handleReplaceClick}>Replace text</button>
+{/* <button  disabled={text.length===0}  className="btn btn-primary mx-1 my-1" onClick={handleReplaceClick}>Replace text</button> */}
 
 
 

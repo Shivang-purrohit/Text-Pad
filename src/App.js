@@ -56,7 +56,7 @@ function App(props) {
            
 
            
-          <Route path="/home" element={ <TextForm showAlert={showAlert} heading="Enter the text" mode={mode}/>}/>
+          <Route path="/" element={ <TextForm showAlert={showAlert} heading="Enter the text" mode={mode}/>}/>
            
             
             </Routes>
